@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moe's Jigger - The Mixologist's Companion</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="/img/moes_jigger_icon.png">
+</head>
+<body>
+
+    <!-- Theme and Language Switches -->
+    <div class="controls">
+        <button class="btn-control" id="langToggle" onclick="toggleLanguage()">FR</button>
+        <button class="btn-control" id="themeToggle" onclick="toggleTheme()">☀️ Light</button>
+    </div>
+
+    <!-- Hero / Main Header -->
+    <header>
+        <div class="logo-container">
+             <img src="img/moes_jigger_icon.png" alt="Moe's jigger icon">
+        </div>
+        <h1><span class="brand-name" id="title">Moe's Jigger</span></h1>
+        <p class="tagline" id="tagline">The Mixologist's Companion</p>
+        <a href="#" class="cta-btn" id="downloadBtn">Download APK</a>
+    </header>
+
+    <!-- Concept Description -->
+    <section class="concept-section">
+        <p class="concept-text" id="conceptText">
+            Your personal digital recipe book designed for cocktail enthusiasts. Beautifully catalog, grade, and tailor your favorite libations. Seamlessly swap measurement units to fit your mixing style and master the art of bartending.
+        </p>
+    </section>
+
+    <!-- Showcase Screenshots -->
+    <section class="gallery-section">
+        <div class="gallery-grid">
+            <div class="screenshot-wrapper">
+                <img src="img/home_page_cocktails_listing.jpg" alt="App Home Page">
+                <div class="screenshot-label" data-en="Home" data-fr="Accueil">Home</div>
+            </div>
+            <div class="screenshot-wrapper">
+                <img src="img/cocktails_details_1.jpg" alt="Cocktail Details Overview">
+                <div class="screenshot-label" data-en="Recipe Overview" data-fr="Aperçu Recette">Recipe Overview</div>
+            </div>
+            <div class="screenshot-wrapper">
+                <img src="img/cocktails_details_2.png" alt="Cocktail Details Recipe Steps">
+                <div class="screenshot-label" data-en="Instructions" data-fr="Instructions">Instructions</div>
+            </div>
+            <div class="screenshot-wrapper">
+                <img src="img/edit_cocktail.jpg" alt="Edit or Add Cocktail Recipe">
+                <div class="screenshot-label" data-en="Edit Mode" data-fr="Mode Édition">Edit Mode</div>
+            </div>
+            <div class="screenshot-wrapper">
+                <img src="img/settings.png" alt="App Settings Configuration">
+                <div class="screenshot-label" data-en="Settings" data-fr="Paramètres">Settings</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Moe's Jigger. TechieNeurons.</p>
+    </footer>
+
+    <!-- Interactive Logic (Internationalization & Dark/Light Mode Switch) -->
+    <script src="script.js"></script>
+</body>
+</html>
