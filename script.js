@@ -3,13 +3,13 @@ const translations = {
     en: {
         title: "Moe's Jigger",
         tagline: "The Mixologist's Companion",
-        downloadBtn: "Download APK",
+        downloadBtn: "COMING SOON",
         conceptText: "Your personal digital recipe book designed for cocktail enthusiasts. Beautifully catalog, grade, and tailor your favorite libations. Seamlessly swap measurement units to fit your mixing style and master the art of bartending."
     },
     fr: {
         title: "Le Jigger de Moe",
         tagline: "Le Compagnon du Mixologue",
-        downloadBtn: "Télécharger l'APK",
+        downloadBtn: "BIENTOT DISPO",
         conceptText: "Votre carnet de recettes numérique personnel conçu pour les passionnés de cocktails. Répertoriez, notez et personnalisez magnifiquement vos créations. Modifiez instantanément les unités de mesure selon vos préférences et maîtrisez l'art du bar."
     }
 };
